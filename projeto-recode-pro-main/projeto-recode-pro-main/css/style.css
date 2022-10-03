@@ -1,0 +1,165 @@
+.rcd-home {
+    height: 70vh;
+}
+
+#rcd-home-desktop {
+    margin-top: 7rem;
+}
+
+#rcd-home-desktop div {
+    width: 35%;
+}
+
+#rcd-home-desktop img {
+    width: 60%;
+    margin-left: 5%;
+}
+
+#rcd-home-mobile {
+    display: none;
+}
+
+.rcd-estatisticas {
+    background-color: #ffffff;
+    padding-bottom: 0;
+}
+
+.rcd-estatisticas h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2.5rem 0 1.5rem 0;
+    color: #444444;
+}
+
+.rcd-estatisticas-lista {
+    list-style: none;
+    color: #444444;
+    padding-bottom: 2rem;
+}
+
+.rcd-estatisticas-item {
+    width: 16rem;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.rcd-estatisticas-item img{
+    width: 80%;
+}
+
+.rcd-estatisticas-numero {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.rcd-estatisticas-texto {
+    font-size: 1.2rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+#rcd-about {
+    margin-bottom: 2rem;
+}
+
+#rcd-about img {
+    width: 50%;
+    margin: 2rem 25% 5% 25%;
+}
+
+#rcd-about h2, #rcd-about p {
+    width: 70%;
+    margin: 0 15% 0 15%;
+}
+
+
+.rcd-equipe {
+    background-color: #E9F3FE;
+    padding-bottom: 0;
+}
+
+.rcd-equipe h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2.5rem 0 1.5rem 0;
+    color: #444444;
+}
+
+.rcd-equipe-item {
+    width: 20rem;
+    text-align: center;
+    margin: 0 0.5rem;
+}
+
+.rcd-equipe-item img{
+    width: 80%;
+}
+
+.rcd-equipe-nome {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+
+.rcd-equipe-redes svg {
+    font-size: 3rem;
+    color: #699dee;
+    margin: 0.5rem 0 1.5rem 0.5rem;
+}
+
+.rcd-equipe-redes a svg {
+    font-size: 3rem;
+    color: #699dee;
+    margin: 0.5rem 0 1.5rem 0.5rem;
+    transition: 0.5s;
+}
+
+.rcd-equipe-redes a svg:hover {
+    color: #4776c2;
+}
+
+#rcd-login {
+    margin: 5rem 0;
+    width: 40%
+}
+
+#rcd-cadastro-formulário {
+    padding: 10%;
+}
+
+@media (max-width: 992px) {
+    .rcd-home {
+        height: 40rem;
+    }
+
+    #rcd-home-desktop {
+        margin-top: 0;
+    }
+
+    #rcd-home-desktop img, #rcd-home-desktop a, #rcd-home-desktop h1, #rcd-home-desktop p{
+        margin-top: 0;
+        display: none;
+    }
+    
+    #rcd-home-mobile {
+        display: block;
+        margin: 5rem 10%;
+        text-align: center;
+    }
+
+    #rcd-home-mobile img, #rcd-home-mobile div {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    #rcd-login {
+        margin: 5rem 0;
+        width: 70%
+    }
+}
